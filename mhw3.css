@@ -1,0 +1,217 @@
+body{
+    font-family: "Edu NSW ACT Foundation",sans-serif;
+  align-items: center;
+    background-color:  rgb(60, 124, 158);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(26, 53, 68);
+    height: 80px;
+}
+
+a{
+    background-color: goldenrod;
+    border-radius: 50px;
+    padding: 5px 15px;
+    color:white;
+    font-family: "Edu NSW ACT Foundation",sans-serif;
+    text-shadow: 2px 2px 4px black;
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+
+header{
+    display: flex;
+    height:500px;
+    background-image: url(rrr.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-position: center;
+    
+    
+    
+
+}
+
+#overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    position:absolute;
+
+    height: 100%;
+    width: 100%;
+    
+}
+
+.titolo{
+    display: inline-block;
+    font-size: 60px;
+   
+    color: rgb(215, 174, 71);
+    text-shadow: 2px 2px 4px black;
+    max-width: 780px;
+    text-align: center;
+    font-family: "Edu NSW ACT Foundation",sans-serif;
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#immagine{
+    
+    background-image: url(download.jfif);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border-radius: 100%;
+    margin-top: -50px;
+    justify-content: center;
+    z-index: 0;
+    border: 4px solid goldenrod;
+}
+
+#nickname{
+    font-family: 'Noto Serif', sans-serif;
+    text-shadow: 2px 2px 4px black;
+    color: rgb(215, 174, 71);
+    font-size: 24;
+    text-align:center;
+
+}
+
+
+#contenitore{
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+    
+
+
+}
+
+.articoli{
+    
+    width: 66.67%;
+   
+    
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.numero{
+    margin-left: -40px;
+    font-size: 38px;
+    font-family: "Edu NSW ACT Foundation",sans-serif;
+    color: goldenrod;
+    text-shadow: 2px 2px 4px black;
+}
+
+.sottotitolo{
+    position: relative ;
+    top: -32px;
+    font-size: 26px;
+    font-family: "Edu NSW ACT Foundation",sans-serif;
+    color: goldenrod;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 20px;
+
+}
+
+.paragrafo{
+    margin-bottom:  20px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-top: -24px;
+    
+
+}
+
+.voto{
+    font-size: 26px;
+    color: goldenrod;
+    font-family: "Edu NSW ACT Foundation",sans-serif;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+}
+
+footer{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Edu NSW ACT Foundation",sans-serif;
+    font-size: 38px;
+    color: goldenrod;
+    text-shadow: 2px 2px 4px black;
+}
+
+@media(max-width:768px)
+{
+    a{font-size: 20px;}
+    header{background-size: cover;}
+    #immagine{
+        width: 70px;
+        height: 70px;
+    }
+    footer{
+        font-size: 28px;
+        height: 100px;
+    }
+
+}
+
+
+
+
+#FF img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#FF {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #gioco  #song {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+ #FF img{
+    margin-bottom: 12px;
+ }
+
+ #ricerca {
+    text-align: center;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px black;
+    color: rgb(215, 174, 71);
+ }
+
+ #music{
+   text-align: center;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px black;
+    color: rgb(215, 174, 71);
+ }
